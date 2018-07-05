@@ -1,0 +1,68 @@
+body {
+    background-color: yellow;
+}
+
+nav {
+    background-color: lightcyan;
+    display: flex;
+    display: -webkit-flex;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+nav a {
+    margin: .2em 1em 0px 1em;
+    color: darkcyan;
+}
+
+nav a:visited {
+    color: darkblue;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+.wrapper {
+    background-color: aquamarine;
+}
+
+h1, h2, h3 {
+    color: rgb(206, 131, 57);
+}
+h1 {
+    text-transform: uppercase;
+}
+
+.crew-pic {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 40%;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: lavender;
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+}
